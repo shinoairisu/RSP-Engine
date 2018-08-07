@@ -24,7 +24,7 @@ RS-Engine是Resource SQLite Packer Engine的缩写，是一个暂时很简陋的
 
 **API:**
 
-> 注意: 凡是返回类似string[]的，真实情况为vector<string>
+` //注意: 凡是返回类似string[]的，真实情况为vector<string>`
 
 *Class*
 RSP
