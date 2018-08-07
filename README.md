@@ -1,5 +1,4 @@
 # RSP-Engine
-RS-Engine是Resource SQLite Packer Engine的缩写，是一个暂时很简陋的对程序资源进行打包的工具
 
 ------------
 
@@ -20,7 +19,7 @@ RS-Engine是Resource SQLite Packer Engine的缩写，是一个暂时很简陋的
 - Visual RSP是由QT5.8开发的。使用的是编译好的RSP.dll。将尝试将sqlite3的源码编译进RSP.dll中,Visual RSP会重新开仓库开发。
 
 
-作为一名C语言初学者开发的库，目标是通俗易用易维护。
+作为一名C语言(水平远低于某一桥大学的寧々ち^~^)的初学者开发的库，目标是通俗、易用、易维护。
 
 **API:**
 
@@ -48,7 +47,7 @@ RSP(string indexpath="resource.index",string packagepath="resource.asset",bool p
 
 
 
-简洁明了就只有四个部分。返回值通常有三种:
+返回值通常有三种:
 string    int   unsigned char*
 
 **GET系列:**
