@@ -12,6 +12,7 @@ RS-Engine是Resource SQLite Packer Engine的缩写，是一个暂时很简陋的
 ------------
 
 **主要功能:**
+
 - 将程序资源封装到一个或者多个资源包里去，方便游戏等应用的开发。由于已经存在ZPACK这种强大的库，RSP库将作为同类库的扩充，方便游戏开发者或者应用开发者有更多选择。
 
 - RSP想要做到的是以更加广泛的方式提供一些更有效的资源打包功能。
@@ -22,6 +23,7 @@ RS-Engine是Resource SQLite Packer Engine的缩写，是一个暂时很简陋的
 作为一名C语言初学者开发的库，目标是通俗易用易维护。
 
 **API:**
+
 > 注意: 凡是返回类似string[]的，真实情况为vector<string>
 
 *Class*
@@ -46,6 +48,7 @@ RSP(string indexpath="resource.index",string packagepath="resource.asset",bool p
 string    int   unsigned char*
 
 **GET系列:**
+
 *GET系列是RSP获取资源的方式。(均可以开启多库查找，和无目录结构查找)*
 ```cpp
 unsigned char*   getElementToBuffer(string name)
@@ -74,6 +77,7 @@ string[]  getElementspf(sn,rootpath="xxx")
 //bf=bufferfolder,pf=pathfolder
 
 **SET系列:**
+
 *SET系列是RSP写入资源的方式。(均可以开始目录结构和多库写入(没有会被创建))*
 ```cpp
 void setElementFromBuffer(unsigned char* file,sp)
@@ -86,10 +90,12 @@ bool setCompact(sp,float&)
 ```
 
 **MODIFY系列:**
+
 *MODIFY系列是对RSP对资源修改的方式。*
-delete
+
 
 **UTILS系列:**
+
 *UTILS系列是一些不确定开头的实用工具或者部分私有函数*
 ```cpp
 createLib(sn)  //成员
