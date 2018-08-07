@@ -127,3 +127,6 @@ string[] pushAll(sp) 枚举目录下所有文件路径 //非成员
 > RSP默认从尾部截取空闲空间给新的文件。或者新开辟空间分给新文件。两张数据表的内容会由触发器链接控制。
 通常，删除的如果是最后一个文件，将会另作处理。
 由于数据库的支持，允许一次取出多个同名数据。由于数据库的支持，允许一次取出多个同名数据。
+
+
+[SQlite License](https://www.sqlite.org/copyright.html "SQlite License")
